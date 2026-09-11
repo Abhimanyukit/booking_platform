@@ -1,2 +1,34 @@
 # booking_platform
-We'll build the Generic Booking Platform and use it as our interview project. I won't dump the whole project on you. You implement each step, run it, and then I'll review it and drill you with interview questions.
+
+## Create Virtual Environment 
+
+
+```
+    python3 -m venv .venv
+```
+## activate virtual environment 
+
+```
+    source .venv/bin/activate
+```
+
+## Run the server 
+
+```
+    uvicorn app.main:app --reload
+```
+
+## The format is:
+```
+    uvicorn <module>:<variable>
+```
+## SO
+```
+    app.main:app
+   ↑      ↑
+   │      └── FastAPI object
+   └──────── Python module
+
+```
+
+
