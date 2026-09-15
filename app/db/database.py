@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base,sessionmaker
 
-URL = "postgresql://postgres:postgres@localhost:5432/booking_db"
+URL = "postgresql://postgres:postgres@localhost:5433/booking_db"
 
 engine = create_engine(URL)
 
