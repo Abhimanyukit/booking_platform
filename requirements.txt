@@ -3,4 +3,6 @@ uvicorn[standard]
 sqlalchemy 
 psycopg2-binary
 email-validator 
+pwdlib[argon2]
+pyjwt
 
